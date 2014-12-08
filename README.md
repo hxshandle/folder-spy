@@ -21,7 +21,7 @@ $ npm install
 ```
 
 ### Before start working
-In order to make foler-spy work fine you should have let it know you Dev env info. You should reset the following two variables to fit your own ENV.
+In order to make foler-spy work fine you should let it know you Dev env info. You should reset the following two variables in **gulpfile.js** to fit your own ENV.
 ``` javascript
 var srcDir = "/mnt/handle/workspace/sfsf/trunk/au-v4/au-V4-web/src/main/webapp/ui/gm/**/*.js";
 var destDir = "/mnt/ramdisk/jboss_4.3/server/main/deploy/main-sfv4.ear/sfv4.war/ui/gm";
