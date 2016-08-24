@@ -9,9 +9,12 @@
   "repository": "",
   "author": "",
   "license": "BSD",
-  "dependencies":{
-    "gulp":"*",
-    "gulp-rename":"~1.2.0",
-    "gulp-watch":"*"
+  "dependencies": {
+    "gulp": "*",
+    "gulp-rename": "~1.2.0",
+    "gulp-watch": "*"
+  },
+  "devDependencies": {
+    "lodash": "^4.14.2"
   }
 }
